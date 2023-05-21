@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieApi", "MovieApi\MovieApi.csproj", "{518D5ADE-1D10-4A41-A843-3B900F56F716}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieApi.Tests", "MovieApi.Tests\MovieApi.Tests.csproj", "{089E2F98-1A51-446E-9C9D-EC2569FC9AE7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{518D5ADE-1D10-4A41-A843-3B900F56F716}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{518D5ADE-1D10-4A41-A843-3B900F56F716}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{518D5ADE-1D10-4A41-A843-3B900F56F716}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{518D5ADE-1D10-4A41-A843-3B900F56F716}.Release|Any CPU.Build.0 = Release|Any CPU
+		{089E2F98-1A51-446E-9C9D-EC2569FC9AE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{089E2F98-1A51-446E-9C9D-EC2569FC9AE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{089E2F98-1A51-446E-9C9D-EC2569FC9AE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{089E2F98-1A51-446E-9C9D-EC2569FC9AE7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
