@@ -152,7 +152,7 @@ public class TestMovieApi
     }
 
     [Fact]
-    public void AddMovie_AddedCorrectly_True()
+    public void AddMovie_GoodData_Added()
     {
         List<Movie> movies = new List<Movie>
         {
@@ -170,5 +170,4 @@ public class TestMovieApi
         result = controller.GetFromYear(2000);
         Assert.Single(((IEnumerable<Movie>)((OkObjectResult)result.Result!).Value!).ToList());
     }
-    
 }
