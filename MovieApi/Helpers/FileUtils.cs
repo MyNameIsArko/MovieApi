@@ -2,16 +2,16 @@ using System.Text.Json;
 
 namespace MovieApi.Helpers;
 
-public static class Utils
+public class FileUtils : IUtils
 {
     private const string Filepath = @"movies.json";
 
-    public static void SaveMovies(List<Movie> movies)
+    public void SaveMovies(List<Movie> movies)
     {
         string moviesJson = JsonSerializer.Serialize(movies);
         File.WriteAllText(Filepath, moviesJson);
     }
-    public static List<Movie> LoadMovies()
+    public List<Movie> LoadMovies()
     {
         List<Movie> movies = new List<Movie>();
         

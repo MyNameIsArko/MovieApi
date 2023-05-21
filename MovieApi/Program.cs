@@ -10,9 +10,18 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-List<Movie> movies = Utils.LoadMovies();
+// Add FileUtils as a singleton service
+// In the future it will be easy to replace FileUtils
+// with other class that operate on the specified database
+// (no need to change in others units)
+builder.Services.AddSingleton<IUtils, FileUtils>();
 
-builder.Services.AddSingleton(movies);
+// Add movies list as a singleton service
+builder.Services.AddSingleton(provider =>
+{
+    var fileUtils = provider.GetRequiredService<IUtils>();
+    return fileUtils.LoadMovies();
+});
 
 var app = builder.Build();
 

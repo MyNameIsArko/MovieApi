@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ffBiaTzFEZQL5j3ijQ3gg8Pp6swVH2lIzsPtUxbAc1xH3odvZlm1s9SCe+lA7DsJ34BIEFU4P1oBqQZB/9t9OA==",
+  "dgSpecHash": "m9cb9KkDVt/J66OJfTMFd+eKGX9yzJcw8wOonAIenFZmU70qI90nVq9KXJvwj5jCP0D/ZF48amkl1acEAwV31Q==",
   "success": true,
   "projectFilePath": "/home/adrian/Projekty/MovieApi/MovieApi.Tests/MovieApi.Tests.csproj",
   "expectedPackageFiles": [
+    "/home/adrian/.nuget/packages/castle.core/5.1.1/castle.core.5.1.1.nupkg.sha512",
     "/home/adrian/.nuget/packages/coverlet.collector/3.1.2/coverlet.collector.3.1.2.nupkg.sha512",
     "/home/adrian/.nuget/packages/microsoft.aspnetcore.openapi/7.0.5/microsoft.aspnetcore.openapi.7.0.5.nupkg.sha512",
     "/home/adrian/.nuget/packages/microsoft.codecoverage/17.3.2/microsoft.codecoverage.17.3.2.nupkg.sha512",
@@ -16,6 +17,7 @@
     "/home/adrian/.nuget/packages/microsoft.testplatform.objectmodel/17.3.2/microsoft.testplatform.objectmodel.17.3.2.nupkg.sha512",
     "/home/adrian/.nuget/packages/microsoft.testplatform.testhost/17.3.2/microsoft.testplatform.testhost.17.3.2.nupkg.sha512",
     "/home/adrian/.nuget/packages/microsoft.win32.primitives/4.3.0/microsoft.win32.primitives.4.3.0.nupkg.sha512",
+    "/home/adrian/.nuget/packages/moq/4.18.4/moq.4.18.4.nupkg.sha512",
     "/home/adrian/.nuget/packages/netstandard.library/1.6.1/netstandard.library.1.6.1.nupkg.sha512",
     "/home/adrian/.nuget/packages/newtonsoft.json/9.0.1/newtonsoft.json.9.0.1.nupkg.sha512",
     "/home/adrian/.nuget/packages/nuget.frameworks/5.11.0/nuget.frameworks.5.11.0.nupkg.sha512",
@@ -46,6 +48,7 @@
     "/home/adrian/.nuget/packages/system.console/4.3.0/system.console.4.3.0.nupkg.sha512",
     "/home/adrian/.nuget/packages/system.diagnostics.debug/4.3.0/system.diagnostics.debug.4.3.0.nupkg.sha512",
     "/home/adrian/.nuget/packages/system.diagnostics.diagnosticsource/4.3.0/system.diagnostics.diagnosticsource.4.3.0.nupkg.sha512",
+    "/home/adrian/.nuget/packages/system.diagnostics.eventlog/6.0.0/system.diagnostics.eventlog.6.0.0.nupkg.sha512",
     "/home/adrian/.nuget/packages/system.diagnostics.tools/4.3.0/system.diagnostics.tools.4.3.0.nupkg.sha512",
     "/home/adrian/.nuget/packages/system.diagnostics.tracing/4.3.0/system.diagnostics.tracing.4.3.0.nupkg.sha512",
     "/home/adrian/.nuget/packages/system.dynamic.runtime/4.0.11/system.dynamic.runtime.4.0.11.nupkg.sha512",

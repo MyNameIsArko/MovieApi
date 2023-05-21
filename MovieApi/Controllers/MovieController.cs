@@ -36,7 +36,7 @@ public class MovieController : ControllerBase
     public ActionResult AddMovie(Movie movie)
     {
         _movies.Add(movie);
-        Utils.SaveMovies(_movies);
+        new FileUtils().SaveMovies(_movies);
         return Ok();
     }
     

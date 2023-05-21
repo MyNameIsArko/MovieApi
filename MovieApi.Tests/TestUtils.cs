@@ -3,7 +3,6 @@ using Xunit;
 
 namespace MovieApi.Tests;
 
-[Collection("MovieApi")]
 public class TestUtils
 {
     [Fact]
@@ -21,7 +20,7 @@ public class TestUtils
         {
             new("test1", "test2", 2000, "test3")
         };
-        Utils.SaveMovies(movies);
+        new FileUtils().SaveMovies(movies);
         Assert.True(File.Exists("movies.json"));
         string text = File.ReadAllText("movies.json");
         string expected = """[{"Name":"test1","Description":"test2","ReleaseYear":2000,"Genre":"test3"}]""";
@@ -36,8 +35,8 @@ public class TestUtils
             new("test1", "test2", 2000, "test3"),
             new("test4", "test5", 2012, "test6")
         };
-        Utils.SaveMovies(expected);
-        var result = Utils.LoadMovies();
+        new FileUtils().SaveMovies(expected);
+        var result = new FileUtils().LoadMovies();
         Assert.Equal(expected, result);
     }
 }

@@ -110,3 +110,5 @@
 /home/adrian/Projekty/MovieApi/MovieApi.Tests/obj/Debug/net7.0/MovieApi.Tests.genruntimeconfig.cache
 /home/adrian/Projekty/MovieApi/MovieApi.Tests/obj/Debug/net7.0/ref/MovieApi.Tests.dll
 /home/adrian/Projekty/MovieApi/MovieApi.Tests/bin/Debug/net7.0/movies.json
+/home/adrian/Projekty/MovieApi/MovieApi.Tests/bin/Debug/net7.0/Castle.Core.dll
+/home/adrian/Projekty/MovieApi/MovieApi.Tests/bin/Debug/net7.0/Moq.dll
